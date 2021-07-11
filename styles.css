@@ -1,0 +1,273 @@
+/* master styles */
+body{
+    margin:0 auto;
+    font-family: 'Comfortaa', cursive;
+    background-color:white;
+    text-align:center;
+
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    margin: 0;
+}
+
+h2 {
+    padding:3px;
+    color:white;
+}
+
+
+
+
+.nav-wrap {
+    display:flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-side {
+    display: flex;
+}
+
+.container{
+  background: black;
+  width:100%;
+  height:100px;
+  padding: 0;
+}
+
+.nav-wrap > .left-side > div {
+    width: 10;
+    font-size:0.9em;
+    text-transform: uppercase;
+    
+}
+
+.nav-link-wrapper {
+    height:15px;
+    float: inline;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a{
+    color:hotpink;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover{
+    border-bottom:1px solid hotpink;
+}
+
+.nav-link-wrapper a:hover{
+    color:hotpink;
+}
+
+.active-nav-link{
+  border-bottom: 10px solid white;
+}
+
+.active-nav-link a{
+  color: white !important;
+}
+
+header {
+    text-align:center;
+    background: url("https://i.imgur.com/jgCDc40.jpg");
+    background-size:cover;
+    margin:0;
+    color:hotpink;
+    max-width: 100%;
+  }
+  .abouthed{
+    background:black;
+    height:150px;
+  }
+  .extrahed{
+    background:black;
+    height:150px;
+  }
+
+  .lasthed{
+    background:black;
+    height:150px;
+  }
+  a{
+    color:white;
+  }
+  h1{
+    font-size:70px;
+  }
+  img{
+    margin:40px 0px 0px 0px;
+    border:7px solid white;
+    border-radius:20px;
+  }
+
+/* now for about page */
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 0px 10px 0 10px;
+  max-width: 100%;
+}
+  
+div {
+    height: 500px;
+    width: 400px;
+    background-size: cover;
+    position: relative;
+    margin: 10px 0 0 0;
+    }
+
+  
+p {
+    color: rgba(255,255,255,1);
+    background: white;
+    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.5));
+    padding: 10px;
+    line-height: 15px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    height: 30px;
+    width: 100%;
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+    cursor: pointer;
+  }
+
+  article{
+    max-width:  100%;
+    padding:20px;
+    margin: 0 300px 0 300px;
+    position: absolute;
+    text-align: center;
+    bottom: 20;
+    top:800px;
+    color:black;
+    background-color: whitesmoke;
+    line-height: 1.5em;
+  }
+
+ big{
+   color:hotpink;
+   line-height: 1.5em;
+   font-family: 'Comfortaa', cursive;
+ }
+  
+  small {
+    opacity: 0;
+
+  }
+  
+  .show-description p {
+    height: 150px;
+  }
+  
+  .show-description small {
+    opacity: 1;
+  }
+  
+  .good{
+    background-image: url("https://i.imgur.com/IcSDpY6.png");
+  }
+  .bad{
+    background-image: url("https://i.imgur.com/ZazaxDp.png");
+  }
+  .ugly{
+    background-image: url("https://i.imgur.com/xvJZRPt.jpg");
+  }
+  
+
+  @media (max-width: 500px) {
+    h1 {
+      font-size: 50px;
+      margin-top: 20px;
+      line-height: 40px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 20px 0 30px 0;
+    }
+    div {
+      margin: 20px 12px 0 12px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 24px;
+    }
+    small {
+      font-size: 16px;
+    }
+  }
+
+  /* extra page */
+
+  
+  .mass{
+    width:400px;
+    height: 450px;
+    margin: 10px auto 10px auto;
+    
+  }
+
+  .gallery{
+    margin: 0 auto;
+    border: 5px solid black;
+    background:whitesmoke;
+  }
+
+  .gallery img{
+    max-height: 400px;;
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .desc{
+    padding:1px;
+    text-align:center;
+    color: hotpink;
+    margin: 0 auto;
+    background: whitesmoke;
+    height: 50px;
+  }
+
+
+  /* last page */
+  
+ 
+  .lastimg{
+    height:34%;
+    border:7px solid white;
+    border-radius: 0;
+    display: block;
+    width: 34%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .lasta{
+    width:auto;
+    height: auto;
+    position: absolute;
+    text-align: center;
+    color:black;
+    background-color: whitesmoke;
+    line-height: 1.5em;
+  }
+  
+  
+
