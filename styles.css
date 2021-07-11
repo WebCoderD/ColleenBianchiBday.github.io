@@ -83,16 +83,16 @@ header {
   }
   .abouthed{
     background:black;
-    height:150px;
+    height:200px;
   }
   .extrahed{
     background:black;
-    height:150px;
+    height:200px;
   }
 
   .lasthed{
     background:black;
-    height:150px;
+    height:200px;
   }
   a{
     color:white;
@@ -250,11 +250,11 @@ p {
   
  
   .lastimg{
-    height:34%;
+    height:20%;
     border:7px solid white;
     border-radius: 0;
     display: block;
-    width: 34%;
+    width: 31%;
     margin-left: auto;
     margin-right: auto;
   }
